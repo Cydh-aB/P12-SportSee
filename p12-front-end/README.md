@@ -18,7 +18,6 @@ Projet 12 - Développer un tableau de bord d'analytics avec React
 - [react-router-dom](https://reactrouter.com/web/guides/quick-start)
 - [recharts](https://recharts.org/en-US/)
 - [styled-components](https://styled-components.com/)
-- [axios](https://axios-http.com/)
 - [prop-types](https://github.com/facebook/prop-types)
 - Recommended editor: [Visual Studio Code](https://code.visualstudio.com/)
 
