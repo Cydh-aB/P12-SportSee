@@ -9,7 +9,7 @@ import {
 } from "recharts";
 import styled from "styled-components";
 import SessionsToolType from "./AverageSessionToolType";
-import { fetchAverageSession } from "../../assets/Data/API";
+import { fetchAverageSession } from "../../Data/API";
 
 /**Style**/
 
@@ -84,7 +84,7 @@ export default function UserAverageSession() {
             domain={[0, "dataMax + 30"]}
             hide={true}
           />
-          <Tooltip content={<SessionsToolType />} />
+          <Tooltip wrapperStyle={{ outline: "none" }} content={<SessionsToolType />} />
           <Line
             type="monotone"
             dataKey="sessionLength"

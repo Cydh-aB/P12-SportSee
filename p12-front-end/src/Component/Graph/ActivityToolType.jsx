@@ -8,8 +8,6 @@ const StyleTooltype = styled.div`
 background-color: red;
 color: #FFF;
 padding: 10px;
-text-align: center;
-outline: none;
 `
 /****/
 

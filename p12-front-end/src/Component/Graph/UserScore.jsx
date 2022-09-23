@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { ResponsiveContainer, RadialBar, RadialBarChart, Legend } from "recharts";
-import PropTypes from "prop-types";
 import styled from "styled-components";
-import { fetchUserScore } from "../../assets/Data/API";
+import { fetchUserScore } from "../../Data/API";
 import { UserScoreTooltype } from "./UserScoreTooltype";
 
 /**Style**/
@@ -29,11 +28,10 @@ h2 {
 /****/
 
 /**create a PieChart with score data of the user
- * @param { object, data }
  * @return {JSX} 
  */
 
-export default function ScoreChart({ data }) {
+export default function ScoreChart() {
     const [score, setScore] = useState([])
 
     useEffect(() => {

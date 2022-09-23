@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, ResponsiveContainer } from "recharts";
 import styled from "styled-components";
-import { fetchPerformance } from "../../assets/Data/API";
+import { fetchPerformance } from "../../Data/API";
 
 /**Style**/
 

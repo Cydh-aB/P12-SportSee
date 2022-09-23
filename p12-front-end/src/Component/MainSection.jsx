@@ -48,6 +48,16 @@ padding-bottom: 5%;
 `
 /****/
 
+/**
+ * Display main section with some RechartsGraph
+ * @param {string} user
+ * @param {Array} performance
+ * @param {Array} averageSessions
+ * @param {Array} activity
+ * @param {Array} score
+ * @return {JSX}
+ */
+
 const redIcon = '#fbeaea'
 const blueIcon = '#e9f4fb'
 const yellowIcon = '#faf6e5'
@@ -101,3 +111,4 @@ const MainSection = ({user, performance, averageSessions, activity, score}) => {
 }
 
 export default MainSection
+

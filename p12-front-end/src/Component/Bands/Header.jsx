@@ -35,11 +35,11 @@ a {
 /****/
 
 function Header() {
-/**
-   * Not refreshing the page
-   * @param {event} e - Event
-   * @returns {void}
-   */
+    /**
+    * Not refreshing the page
+    * @param {event} e - Event
+    * @returns {void}
+    */
   const NotRefresh = (e) => e.preventDefault();
     return(
         <StyleHeader>

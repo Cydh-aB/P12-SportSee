@@ -27,7 +27,6 @@ font-size: 26px;
 /****/
 
 /** create a custom tooltype for the user activity barChart
- * @param  {bool} active
  * @param  {array} payload
  * @return {JSX}
  */

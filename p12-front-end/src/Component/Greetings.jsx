@@ -38,7 +38,7 @@ const Greetings = ({name}) => {
 export default Greetings
 
 /**
- * Grettings type definition
+ * Greettings type definition
  * @typedef {Object} Grettings
  * @property {number} user.id
  * @property {Object} keydata

@@ -11,7 +11,7 @@ import ProteinIcon from "../assets/Image/proteines_icon.png"
 import NutritionData from "../Component/NutritionData";
 import Greetings from "../Component/Greetings";
 import { device } from "../Utils/MediaQueries";
-import { fetchInfo, fetchUserInfo } from "../assets/Data/API";
+import { fetchInfo, fetchUserInfo } from "../Data/API";
 
 const StyleContainer = styled.section`
 margin-left: 17%;
